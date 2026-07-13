@@ -1,0 +1,8 @@
+class Employee(models.Model):
+	Empid = models.IntegerField()
+	Empname = models.CharField(max_length)
+	Empsal = models.IntegerField()
+class Student{
+	int studentid;
+	string studentname;
+	double stumarks;
